@@ -3,7 +3,9 @@
 // +Lương 1 Ngày = 100.000
 // +Số ngày làm
 // Process:
-// +Tính tiền lương nhân viên : lương 1 ngày * số ngày làm
+// B1:tạo sự kiện cho nút button
+// B2:Lấy value số ngày làm việc;
+// B3:Tính tổng lương bằng công thức ngày làm việc nhân với lương 1 ngày
 // Output:
 // +Lương nhân viên
 var btn = document.getElementById("btn");
@@ -18,7 +20,9 @@ btn.onclick = function(){
 // Input:
 // +Nhập 5 số thực
 // Process:
-// +Tính giá trị trung bình của 5 số này : lấy 5 số cộng lại rồi chia 5
+// B1:Tạo sự kiện cho button
+// B2:Lấy value của 5 số người dùng nhập
+// B3:Tính giá trị trung bình của 5 số này : lấy 5 số cộng lại rồi chia 5
 // Output:
 // +Giá trị trung bình của 5 số
 var btn2 = document.getElementById("btn2");
@@ -37,7 +41,9 @@ btn2.onclick = function () {
 // +Giá đô : 23500
 // +Nhập số tiền đô cần đổi
 // Process:
-// +Tính số tiền sau quy đổi VND : lấy số tiền đô nhập * 23500
+// B1:Tạo sự kiện cho button
+// B2:Lấy value (số đô cần đổi) vừa được nhập
+// B3:Tính số tiền sau quy đổi VND : lấy số tiền đô nhập * 23500
 // Output:
 // +Số tiền quy đổi qua VND
 var btn3 = document.getElementById("btn3");
@@ -51,7 +57,9 @@ btn3.onclick = function(){
 // Input:
 // +Nhập chiều dài và rộng
 // Process:
-// +Tính chu vi : (dài + rộng ) * 2 và diện tích : dài * rộng
+// B1:Tạo sự kiện cho button
+// B2:Lấy value (chiều dài và chiều rộng) vừa được nhập
+// B3:Tính chu vi : (dài + rộng ) * 2 và diện tích : dài * rộng
 // Output:
 // +Chu vi và diện tích
 var btn4 = document.getElementById("btn4");
@@ -67,7 +75,9 @@ btn4.onclick = function (){
 // Input:
 // Nhập số có 2 chữ số
 // Process:
-// Tính tổng 2 ký số vừa nhập : % 10 để lấy hàng đơn vị , math.floor / 10 để lấy hàng chục
+// B1:Tạo sự kiện cho button
+// B2:Lấy value (số có 2 chữ số) vừa nhập
+// B3:Tính tổng 2 ký số vừa nhập : % 10 để lấy hàng đơn vị , math.floor / 10 để lấy hàng chục
 // Output:
 // Tổng 2 ký số vừa nhập
 var btn5 = document.getElementById("btn5");
